@@ -1,4 +1,4 @@
-name: Hot News Crawler
+name: Hot News Crawler (新闻爬虫)
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
     #点期间，每半小时运行一次)
     - cron: "0 4 * * *" #
     - cron: "0 11 * * *"
-  workflow_dispatch:  # 可以手动触发任务
+  workflow_dispatch: # 可以手动触发任务
 
 # 添加权限设置
 permissions:
